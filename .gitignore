@@ -1,0 +1,23 @@
+#carpeta ContenidoSecreto
+/assets/media/ContenidoSecreto
+/templates/ContenidoSecreto
+
+#Ignora archivo config.php
+**/config.php
+
+#Ignora todos los archivos con la extension .pdf que esten dentro de la carpeta assets
+assets/*.pdf
+
+#Ignora todos los archivos con la extension txt
+*.txt
+
+#Ignorar imagenes
+/assets/media/ContenidoSecreto/*.jpg
+/templates/ContenidoSecreto/*jpg
+
+#Ignora archivos con la bandera -prueba || -local
+*-prueba*
+*-local*
+
+#Permitir archivos con la bandera -experimento
+!*-experimento
