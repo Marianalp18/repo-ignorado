@@ -1,5 +1,6 @@
 #carpeta ContenidoSecreto
 /assets/media/ContenidoSecreto
+/docs/contribucion/ContenidoSecreto
 /templates/ContenidoSecreto
 
 #Ignora archivo config.php
@@ -13,6 +14,7 @@ assets/*.pdf
 
 #Ignorar imagenes
 /assets/media/ContenidoSecreto/*.jpg
+/docs/contribucion/ContenidoSecreto/*jpg
 /templates/ContenidoSecreto/*jpg
 
 #Ignora archivos con la bandera -prueba || -local
